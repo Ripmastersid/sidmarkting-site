@@ -1,202 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SidMarkting | Landing Pages & Tráfego Pago</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      overflow-x: hidden;
-    }
-
-    /* Banner com GIF */
-    .banner {
-      height: 700px;
-      background: url('/banner.gif') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-    }
-
-    /* Container de vidro */
-    .glass {
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 0.5px solid rgba(255, 255, 255, 0.15);
-      border-radius: 20px;
-      padding: 30px 50px;
-      text-align: center;
-      color: white;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-      max-width: 700px;
-      width: 90%;
-    }
-
-    .glass h1 {
-      font-size: 2.8rem;
-      margin: 0 0 10px;
-      font-weight: 800;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    }
-
-    .glass p {
-      font-size: 1.3rem;
-      opacity: 0.9;
-      font-weight: 500;
-    }
-
-    /* Seções */
-    section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .section-light { background: #f9f9f9; }
-    .section-dark { background: #fff; }
-
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      color: #333;
-    }
-
-    /* Formulário */
-    .form {
-      max-width: 400px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    input, select {
-      padding: 12px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      font-size: 16px;
-    }
-
-    button {
-      margin-top: 20px;
-      padding: 14px;
-      background: #00C853;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
-    }
-
-    /* Rodapé */
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      background: #000;
-      color: white;
-    }
-
-    .social {
-      margin-top: 15px;
-    }
-
-    .social a {
-      color: #00C853;
-      text-decoration: none;
-      margin: 0 12px;
-    }
-
-    /* Mobile */
-    @media (max-width: 768px) {
-      .glass {
-        padding: 20px 25px;
-      }
-      .glass h1 { font-size: 2.2rem; }
-      .banner { height: 500px; }
-    }
-  </style>
-</head>
-<body>
-
   <!-- Banner com GIF -->
-  <div class="banner">
-    <div class="glass">
-      <h1>SIDMARKTING LANDING PAGES</h1>
-      <p>Construo sites • Tráfego pago Meta ADS</p>
+  <div style="height:700px;background:url('/banner.gif') center/cover no-repeat;display:flex;align-items:center;justify-content:center;position:relative;">
+    <div style="background:rgba(255,255,255,0.15);backdrop-filter:blur(10px);border:0.5px solid rgba(255,255,255,0.15);border-radius:20px;padding:30px 50px;text-align:center;color:white;box-shadow:0 8px 32px rgba(0,0,0,0.15);max-width:700px;width:90%;">
+      <h1 style="font-size:2.8rem;margin:0 0 10px;font-weight:800;text-shadow:0 2px 4px rgba(0,0,0,0.2);">SIDMARKTING LANDING PAGES</h1>
+      <p style="font-size:1.3rem;opacity:0.9;font-weight:500;">Construo sites • Tráfego pago Meta ADS</p>
     </div>
   </div>
 
   <!-- Seção: Realismo -->
-  <section class="section-light">
-    <h2>Não é milagre. É estratégia.</h2>
-    <p>
-      Campanha boa não nasce do nada. Nasce de uma landing clara, teste constante e ajuste fino. 
-      Você traz o produto. Eu crio a estrutura. Resultado vem com consistência — e quando vem, é escalável.
-    </p>
+  <section style="padding:60px 20px;background:#f9f9f9;text-align:center;">
+    <div style="max-width:800px;margin:0 auto;">
+      <h2 style="font-size:2rem;margin-bottom:20px;">Não é milagre. É estratégia.</h2>
+      <p style="font-size:1.1rem;color:#333;line-height:1.6;">
+        Campanha boa não nasce do nada. Nasce de uma landing clara, teste constante e ajuste fino. Você traz o produto. Eu crio a estrutura. Resultado vem com consistência — e quando vem, é escalável.
+      </p>
+    </div>
   </section>
 
   <!-- Formulário -->
-  <section class="section-dark">
-    <h2>Quer conversar?</h2>
-    <div class="form">
-      <input type="text" id="name" placeholder="Seu nome" />
-      <input type="email" id="email" placeholder="E-mail (opcional)" />
-      <input type="tel" id="whatsapp" placeholder="(21) 98866-3114" />
-      <select id="service">
+  <section style="padding:60px 20px;background:#fff;text-align:center;">
+    <div style="max-width:400px;margin:0 auto;">
+      <h2 style="font-size:1.8rem;margin-bottom:30px;">Quer conversar?</h2>
+      <input id="name" placeholder="Seu nome" style="width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;margin-bottom:12px;font-size:16px;">
+      <input id="email" type="email" placeholder="E-mail (opcional)" style="width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;margin-bottom:12px;font-size:16px;">
+      <input id="whatsapp" placeholder="(21) 98866-3114" style="width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;margin-bottom:12px;font-size:16px;">
+      <select id="service" style="width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;margin-bottom:20px;font-size:16px;background:white;">
         <option value="">Escolha um serviço</option>
         <option value="landing">Quero landing page</option>
         <option value="trafego">Quero tráfego Meta ADS</option>
         <option value="ambos">Quero os dois</option>
       </select>
-      <button onclick="sendToWhatsApp()">
+      <button onclick="sendWA()" style="width:100%;padding:14px;background:#00C853;color:white;border:none;border-radius:8px;font-size:16px;font-weight:600;cursor:pointer;">
         Falar no WhatsApp
       </button>
     </div>
   </section>
 
   <!-- Rodapé -->
-  <footer>
-    <p>© {{year}} SidMarkting. Todos os direitos reservados.</p>
-    <div class="social">
-      <a href="https://www.instagram.com/syd.shapper/" target="_blank">Instagram</a>
-      <a href="https://www.facebook.com/share/18NkFpNCgD/" target="_blank">Facebook</a>
-      <a href="https://wa.me/5521988663114" target="_blank">WhatsApp</a>
+  <footer style="text-align:center;padding:30px 20px;background:#000;color:#fff;">
+    <p>© <span id="year"></span> SidMarkting. Todos os direitos reservados.</p>
+    <div style="margin-top:15px;">
+      <a href="https://www.instagram.com/syd.shapper/" target="_blank" style="color:#00C853;margin:0 12px;">Instagram</a>
+      <a href="https://www.facebook.com/share/18NkFpNCgD/" target="_blank" style="color:#00C853;margin:0 12px;">Facebook</a>
+      <a href="https://wa.me/5521988663114" target="_blank" style="color:#00C853;margin:0 12px;">WhatsApp</a>
     </div>
   </footer>
 
   <script>
-    function sendToWhatsApp() {
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const whatsapp = document.getElementById('whatsapp').value;
-      const service = document.getElementById('service').value;
-
-      let msg = `Olá, Sidnei! Meu nome é ${name}.`;
-      if (email) msg += ` E-mail: ${email}.`;
-      if (whatsapp) msg += ` WhatsApp: ${whatsapp}.`;
-
-      let opt = '';
-      if (service === 'landing') opt = 'Quero landing page.';
-      else if (service === 'trafego') opt = 'Quero tráfego Meta ADS.';
-      else if (service === 'ambos') opt = 'Quero os dois.';
-
-      const fullMsg = `${msg} ${opt}`;
-      window.open(`https://wa.me/5521988663114?text=${encodeURIComponent(fullMsg)}`, '_blank');
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function sendWA() {
+      const n = document.getElementById('name').value;
+      const e = document.getElementById('email').value;
+      const w = document.getElementById('whatsapp').value;
+      const s = document.getElementById('service').value;
+      let msg = `Olá, Sidnei! Meu nome é ${n}.`;
+      if(e) msg += ` E-mail: ${e}.`;
+      if(w) msg += ` WhatsApp: ${w}.`;
+      if(s==='landing') msg += ' Quero landing page.';
+      else if(s==='trafego') msg += ' Quero tráfego Meta ADS.';
+      else if(s==='ambos') msg += ' Quero os dois.';
+      window.open(`https://wa.me/5521988663114?text=${encodeURIComponent(msg)}`, '_blank');
     }
-
-    // Atualiza o ano dinamicamente
-    document.querySelector('footer p').innerHTML = 
-      document.querySelector('footer p').innerHTML.replace('{{year}}', new Date().getFullYear());
   </script>
 </body>
 </html>
